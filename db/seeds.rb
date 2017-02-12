@@ -22,13 +22,16 @@ lists = List.create([
 	{title: :Chores} 
 ])
 
-activities = Activity.create([
-	{list_id: 1, title: "Walk"},
-	{list_id: 1, title: "Kung Fu"},
-	{list_id: 1, title: "Tai Chi"},
-	{list_id: 1, title: "Exercise"},
-	{list_id: 2, title: "Morning Meditation"},
-	{list_id: 2, title: "Evening Meditation"},
-	{list_id: 2, title: "Offerings"},
-	{list_id: 3, title: "Piano"}
-])
+list = List.find(1)
+list.activities.create(:title => "Walk")
+list.activities.create(:title => "Kung Fu")
+list.activities.create(:title => "Tai Chi")
+list.activities.create(:title => "Exercise")
+
+list = List.find(2)
+list.activities.create(:title => "Morning Meditation")
+list.activities.create(:title => "Evening Meditation")
+list.activities.create(:title => "Offerings")
+
+list = List.find(3)
+list.activities.create(:title => "Piano")

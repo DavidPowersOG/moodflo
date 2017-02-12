@@ -1,5 +1,6 @@
 class ActivitiesController < ApplicationController
   def manage
+  	@activities = Activity::all
   end
 
   def journal
