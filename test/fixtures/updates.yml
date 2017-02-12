@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  activity_id: 1
+  notes: MyText
+  mood: 1
+  energy: 1
+  concentration: 1
+  awareness: 1
+
+two:
+  activity_id: 1
+  notes: MyText
+  mood: 1
+  energy: 1
+  concentration: 1
+  awareness: 1

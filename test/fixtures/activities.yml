@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  list_id: 1
+  timing: MyString
+  title: MyString
+  description: MyString
+
+two:
+  list_id: 1
+  timing: MyString
+  title: MyString
+  description: MyString
